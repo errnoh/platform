@@ -1,2 +1,4 @@
 core.lua
+behaviorlib.lua
+botbraincore.lua
 *.swp
