@@ -31,3 +31,12 @@ Alias "showTest" "trigger testpp_ToggleWindows"
 Alias "sit" "UICall * Team(0,0)"
 Alias "start" "startgame practice 'test' map:caldavar teamsize:1 spectators:10 mode:botmatch"
 
+
+http://forums.heroesofnewerth.com/forumdisplay.php?290-Bots
+http://forums.heroesofnewerth.com/showthread.php?471130-HoNBot-FAQ
+http://forums.heroesofnewerth.com/showthread.php?472609-LuaFunctions-bot-functions-list
+http://forums.heroesofnewerth.com/showthread.php?470687-Bot-Creation-Tutorial
+http://forums.heroesofnewerth.com/showthread.php?470402-Tutorial-Snippets-Dump-Thread&p=15484887&viewfull=1#post15484887
+https://github.com/tkt-hon/HoN-API/tree/master/Lua-API
+http://forums.heroesofnewerth.com/showthread.php?491207-Recommendations-on-bot-testing-development
+
