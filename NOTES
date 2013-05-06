@@ -3,3 +3,31 @@ git submodule update --init --recursive
 unzip -l resources0.s2z "bots/*"
 
 set teambotmanager_mode 1v1
+
+set host_dynamicResReload true
+set con_notify true
+set con_notifyLines 20
+set cg_botDebug true
+set sv_botDebug true
+set cg_drawSelectedPath true
+set host_timeScale <0.1 ... 100.0>
+set lua_warningsAsErrors true
+set con_alpha 0.5
+set con_height 0.3
+
+Alias "botsetup" "fill1;fill2;botprofile;hard;fast;sit"
+Alias "fast" "sv_preMatchTime 10000"
+;Alias "fill1" "AddBot 1 ChronosBot; AddBot 1 FlintBot; AddBot 1 WitchSlayerBot; AddBot 1 GlaciusBot; AddBot 1 MagmusBot"
+;Alias "fill2" "AddBot 2 ForsakenArcherBot; AddBot 2 DSBot; AddBot 2 DefilerBot; AddBot 2 HammerstormBot; AddBot 2 St0l3n_IDsAmunRatasticBot"
+Alias "fill1" "AddBot 1 errnoh_Rampage"
+Alias "fill2" "AddBot 2 errnoh_Rampage"
+Alias "fillall" "fill1;fill2;hard"
+Alias "giveBotsGold" "GiveGold 1 15000;GiveGold 2 15000;GiveGold 3 15000;GiveGold 4 15000;GiveGold 5 15000;GiveGold 6 15000;GiveGold 7 15000;GiveGold 8 15000;GiveGold 9 15000;GiveGold 10 15000"
+Alias "go" "StartMatch"
+Alias "hard" "g_botDifficulty 3"
+Alias "randombots" "Script Game_Lobby:RandomBots()"
+Alias "setup" "g_disableFogOfWar 1; g_camDistanceMax 2500"
+Alias "showTest" "trigger testpp_ToggleWindows"
+Alias "sit" "UICall * Team(0,0)"
+Alias "start" "startgame practice 'test' map:caldavar teamsize:1 spectators:10 mode:botmatch"
+
