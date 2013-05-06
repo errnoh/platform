@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bot
+  name="errnoh_MoonQueen"
+  description="errnoh Moon Queen"
+  heroname="Hero_Krixi"
+  rootlua="errnoh_moon_queen.lua"
+  defaultplayername="errnohMQBot"
+  precachepath="/heroes/krixi/"
+/>

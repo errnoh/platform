@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bot
+  name="errnoh_PlagueRider"
+  description="errnoh Plague Rider"
+  heroname="Hero_DiseasedRider"
+  rootlua="errnoh_plague_rider.lua"
+  defaultplayername="errnohPlagueBot"
+  precachepath="/heroes/diseasedrider/"
+/>

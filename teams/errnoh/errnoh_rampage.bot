@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bot
+  name="errnoh_Rampage"
+  description="errnoh Rampage"
+  heroname="Hero_Rampage"
+  rootlua="errnoh_rampage.lua"
+  defaultplayername="errnohRampageBot"
+  precachepath="/heroes/rampage/"
+/>
