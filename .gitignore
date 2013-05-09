@@ -2,5 +2,6 @@ core.lua
 behaviorlib.lua
 botbraincore.lua
 eventslib.lua
+teambot
 *.swp
 teambot/teambotbrain.lua
