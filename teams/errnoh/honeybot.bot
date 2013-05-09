@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bot
+  name="honeybot_MoonQueen"
+  description="honeybot Moon Queen"
+  heroname="Hero_Krixi"
+  rootlua="honeybot.lua"
+  defaultplayername="HoneybotMQBot"
+  precachepath="/heroes/krixi/"
+/>
