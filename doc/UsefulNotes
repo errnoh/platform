@@ -1,0 +1,3 @@
+grep -R "unitSelf:" * | cut -d: -f 3 | sort >> fSomething
+
+host_timescale = XXX

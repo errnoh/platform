@@ -1,0 +1,19 @@
+GetAdjustedAttackCooldown()
+GetAttackRange() 
+GetBehavior()	
+GetBoundsRadius()
+GetFinalAttackDamageMax()
+GetHealth()
+GetInventory()
+GetPosition()
+GetRemainingCooldownTime(itemDefinition.object or itemDefinition)
+GetTeam()
+GetTypeName()
+GetUniqueID()
+IsAlive()
+IsBotControlled()
+IsHero()
+IsUnitType("Courier") // MeleeRax, Well, Courier
+SwapItems(slot, destSlot)
+
+http://tchackie.github.io/hon-bot-documentation/modules/IEntityAbility.html
