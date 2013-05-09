@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bot
-<<<<<<< HEAD
-  name="honeybot_MoonQueen"
-  description="honeybot Moon Queen"
-  heroname="Hero_Krixi"
-  rootlua="honeybot.lua"
-  defaultplayername="HoneybotMQBot"
-  precachepath="/heroes/krixi/"
-=======
   name="honeybot_MQ"
   description="honeybot"
   heroname="Hero_Krixi"
   rootlua="honeybot.lua"
   defaultplayername="honeybotMQ"
->>>>>>> cd8f7bcf9a9783a97789658fdbdb3d6ba67f8af7
 />
