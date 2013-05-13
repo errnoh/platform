@@ -1,0 +1,46 @@
+core.UNIT_MASK_UNIT	= 0x0000001
+core.UNIT_MASK_BUILDING	= 0x0000002
+core.UNIT_MASK_HERO	= 0x0000004
+core.UNIT_MASK_POWERUP	= 0x0000008
+core.UNIT_MASK_GADGET	= 0x0000010
+core.UNIT_MASK_ALIVE	= 0x0000020
+core.UNIT_MASK_CORPSE	= 0x0000040
+
+-- Yksiköt jollain rangella: (99999 rangella vasemmasta yläkulmasta lähtien (0,0))
+units = HoN.GetUnitsInRadius(Vector3.Create(), 99999, core.UNIT_MASK_ALIVE + core.UNIT_MASK_BUILDING)
+
+-- Aiempi unitsköntti voidaan viedä taulukoihin seuraavalla:
+local sortedBuildings = {}
+core.SortBuildings(units, sortedBuildings
+-- Tai myös yksiköt niin, bool tuo teamBotBrain:CreateMemoryUnit() normi unitentityn sijaan
+core.SortUnitsAndBuildings(units, sortedUnitsAndBuildings, bHeroesAsMemoryUnits)
+
+-- Rightclickranget
+function core.GetAbsoluteAttackRange(unit)
+function core.GetAbsoluteAttackRangeToUnit(unit, unitTarget, bSquared)
+function core.IsUnitInRange(unitSelf, unitTarget, nRangeOverride)
+function core.GetFinalAttackDamageAverage(unit)
+function core.GetAttacksPerSecond(unit)
+
+-- Waypointit
+function core.GetFirstNode(tLanePath, bForward)	
+function core.GetLastNode(tLanePath, bForward)
+function core.GetNextWaypoint(tPath, vecPos, bForward)	
+function core.GetPrevWaypoint(tPath, vecPos, bForward)
+function core.TimeToPosition(position, myLocation, moveSpeed, itemGhostMarchers)
+
+-- Lane
+function core.GetFurthestCreepWavePos(tLane, bTraverseForward)
+function core.AssessLaneDirection(position, tPath, bTraverseForward)
+function core.GetClosestTeleportBuilding(position)
+function core.GetTeleportBuildings()	
+function core.GetFurthestPointOnPath(position, tPath, bTraverseForward)
+function core.GetFurthestPointOnLine(vecPosition, vecStart, vecEnd)
+
+-- SAFE TO ATTACK? (Ei vaihda itseen targettia)
+function core.IsTowerSafe(unitEnemyTower, unitSelf)
+
+-- Skills
+function core.FindCenterOfMass(tUnitList, funcWeighting)
+function core.AoETargeting(unitSelf, nRange, nRadius, bPositionTargets, unitPriorityTarget, nTeamFilter, funcWeighting)
+function core.GetAttackSequenceProgress(unit)
