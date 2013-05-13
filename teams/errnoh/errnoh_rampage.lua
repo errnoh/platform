@@ -46,7 +46,6 @@ behaviorLib.LaneItems = { "Item_Marchers", "Item_Lifetube", "Item_ManaBattery" }
 behaviorLib.MidItems = { "Item_EnhancedMarchers", "Item_Shield2", "Item_PowerSupply", "Item_MysticVestments" }
 behaviorLib.LateItems = { "Item_Immunity", "Item_DaemonicBreastplate" }
 
-
 -- skillbuild table, 0=q, 1=w, 2=e, 3=r, 4=attri
 object.tSkills = {
   1, 2, 1, 0, 1,
@@ -101,7 +100,6 @@ function object:SkillBuild()
         return
     end
     
-   
     local nlev = unitSelf:GetLevel()
     local nlevpts = unitSelf:GetAbilityPointsAvailable()
     for i = nlev, nlev+nlevpts do
@@ -163,7 +161,6 @@ behaviorLib.CustomHarassUtility = CustomHarassUtilityFnOverride
 -- @return: none
 --
 local function HarassHeroExecuteOverride(botBrain)
-    BotEcho("Looking for target")
     
     local unitTarget = behaviorLib.heroTarget
     if unitTarget == nil then
@@ -190,7 +187,6 @@ local function HarassHeroExecuteOverride(botBrain)
    
     -- DEBUG
     if bCanSee then
-        BotEcho("Found target")
         core.DrawDebugArrow(unitSelf:GetPosition(), unitTarget:GetPosition(), 'cyan')
 
         local nTargetDistanceSq = Vector3.Distance2DSq(unitSelf:GetPosition(), unitTarget:GetPosition())

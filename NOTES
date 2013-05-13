@@ -2,6 +2,7 @@ git submodule update --init --recursive
 
 unzip -l resources0.s2z "bots/*"
 
+set teambotmanager_legion errnoh
 set teambotmanager_mode 1v1
 
 set host_dynamicResReload true
@@ -39,4 +40,3 @@ http://forums.heroesofnewerth.com/showthread.php?470687-Bot-Creation-Tutorial
 http://forums.heroesofnewerth.com/showthread.php?470402-Tutorial-Snippets-Dump-Thread&p=15484887&viewfull=1#post15484887
 https://github.com/tkt-hon/HoN-API/tree/master/Lua-API
 http://forums.heroesofnewerth.com/showthread.php?491207-Recommendations-on-bot-testing-development
-

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bot
+  name="TCP_MoonQueen"
+  description="TCP Moon Queen"
+  heroname="Hero_Krixi"
+  rootlua="derp.lua"
+  defaultplayername="TcpMQBot"
+  precachepath="/heroes/krixi/"
+/>
